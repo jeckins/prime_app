@@ -1,5 +1,5 @@
 FROM tomcat:8.0-alpine
-
+#comment
 ADD sample.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
